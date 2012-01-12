@@ -3,7 +3,6 @@
 #define LINKED_LIST
 
 #include <stdio.h>
-#include <malloc.h>
 
 #define swap(a, b) {typeof(a) __tmp = b; b = a; a = __tmp}
 

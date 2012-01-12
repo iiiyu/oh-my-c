@@ -4,7 +4,7 @@ TARGET=list_test
 
 
 %_test:%_test.o
-	cc -export-dynamic -g $< -o $@ 
+	cc -g $< -o $@ 
 
 %_test.o:%_test.c
 	cc -c -g $< -o $@

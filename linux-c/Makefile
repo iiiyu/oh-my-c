@@ -10,7 +10,7 @@ LIBS= -L/usr/lib/nptl -lpthread
 
 
 %_test:%_test.o
-	cc $(LIBS) -export-dynamic -g $< -o $@ 
+	cc $(LIBS) -g $< -o $@ 
 
 %_test.o:%_test.c
 	cc $(CFLAGS) -c -g $< -o $@
