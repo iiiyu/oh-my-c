@@ -5,7 +5,7 @@ $(TARGET):
 	make -C python-c/
 	make -C oh-my-demo/
 	make -C algorithm/
-	tar cpzf $(TARGET) --exclude=.git linux-c/
+#	tar cpzf $(TARGET) --exclude=.git linux-c/
 
 .PHONY: clean remove_bak debug release
 

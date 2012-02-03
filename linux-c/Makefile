@@ -10,7 +10,7 @@ LIBS= -L/usr/lib/nptl -lpthread
 
 
 %_test:%_test.o
-	cc $(LIBS) -g $< -o $@ 
+	cc -g $< -o $@ $(LIBS)
 
 %_test.o:%_test.c
 	cc $(CFLAGS) -c -g $< -o $@
