@@ -1,7 +1,7 @@
 /******************************************************************
  ** File Name:matcher.c
 
- ** Copyright(c)2005-2011	YLMF. Inc	
+ ** Copyright(c)2005-2011	ChenYu Xiao	
 
  ** Created: ChenYu Xiao  <yunsn0303@gmail.com>
 
@@ -99,11 +99,11 @@ kmp_matcher(const char *target, const char *pattern)
 
 
 
-#if 1
+#if 0
 int main()
 {
         char *target = "abababaababacb";
-        char *pattern = "ababacb";
+        char *pattern = "a";
         char *p = NULL;
         char *test = "ababababca";
         int *ta = NULL;
